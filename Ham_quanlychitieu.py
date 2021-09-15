@@ -15,10 +15,12 @@ def remove_item(myTempList, item_name):
     else:
         print(item_name + " not in list")
 
+expenses = {'name':'mắm tôm','cost':'20k','date':'hômqua'}
+
 print("Your expenses:", expenses)
 
 print("What do you want to do? -\n"\
-        "1. Add\n" \
+        "1. Add\n"\
         "2. Remove")
 
 option = int(input("Select option 1 or 2: "))
